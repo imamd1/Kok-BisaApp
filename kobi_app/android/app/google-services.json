@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647229895418",
+    "firebase_url": "https://kobiapp-70b57.firebaseio.com",
+    "project_id": "kobiapp-70b57",
+    "storage_bucket": "kobiapp-70b57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647229895418:android:45c40890836b2b34808f43",
+        "android_client_info": {
+          "package_name": "com.example.kobi_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647229895418-bag9g32veathntasue0vs1n78javr0ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC0a2YRkCt2adb-Civh5sTZ1CJ7L-wow4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647229895418-bag9g32veathntasue0vs1n78javr0ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

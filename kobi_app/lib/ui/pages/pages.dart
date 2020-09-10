@@ -1,0 +1,36 @@
+import 'dart:async';
+import 'dart:io';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:email_validator/email_validator.dart';
+import 'package:firebase_auth/firebase_auth.dart' as auth;
+import 'package:flushbar/flushbar.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:kobi_app/bloc/bloc.dart';
+import 'package:kobi_app/models/models.dart';
+import 'package:kobi_app/services/services.dart';
+import 'package:kobi_app/shared/shared.dart';
+import 'package:music_player/music_player.dart';
+import 'package:provider/provider.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:path/path.dart';
+
+part 'main_page.dart';
+part 'wrapper.dart';
+part 'sign_in_page.dart';
+part 'splash_page.dart';
+part 'sign_up_page.dart';
+part 'confirm_page.dart';
+part 'video_screen.dart';
+part 'account_page.dart';
+part 'list_video.dart';
+part 'article_page.dart';
+part 'article_detail.dart';
+part 'edit_profile.dart';
+part 'html.dart';
+part 'podcast_page.dart';
+part 'podcast_player.dart';
